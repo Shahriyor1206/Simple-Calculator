@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+
+    <div class="container">
+       <div id="output">00</div>
+
+       <div class="folder">
+        <input id="input_1" type="text" placeholder="Value 1">
+        <input id="input_2" type="text" placeholder="Value 2">
+       </div>
+
+       <div class="container_btns">
+        <button onclick="add()" class="btns">+</button>
+        <button onclick="minus()" class="btns">-</button>
+        <button onclick="mult()" class="btns">*</button>
+        <button onclick="del()" class="btns">/</button>
+        <button onclick="reset()" class="btns" id="Reset">Reset</button>
+       </div>
+    </div>
+</body>
+</html>
